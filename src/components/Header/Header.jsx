@@ -39,11 +39,11 @@ const Header = () => {
           {/* =========================menu right================== */}
           <div className="flex items-center gap-4">
             <button className="flex items-center gap-2 text-smallTextColor font-[700] border border-solid rounded-[8px] py-2 px-4 max-h-[40px] hover:bg-smallTextColor hover:text-white duration-300 hover:font-[500] ease-in ">
-              <i class="ri-send-plane-line"></i> Let's Talk
+              <i className="ri-send-plane-line"></i> Let's Talk
             </button>
 
             <span className="text-2xl md:hidden text-smallTextColor cursor-pointer ">
-              <i class="ri-menu-line"></i>
+              <i className="ri-menu-line"></i>
             </span>
           </div>
 
