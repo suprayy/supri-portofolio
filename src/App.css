@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: #FAF8ED;
+  font-family: "Urbanist", sans-serif;
+}
+
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1170px;
+  margin: auto;
+}
+
+section{
+  padding: 50px 0;
+}
