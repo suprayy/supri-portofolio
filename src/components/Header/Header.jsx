@@ -18,7 +18,7 @@ const Header = () => {
           {/* ====================logo end ================ */}
 
           {/* =========================menu================== */}
-          <div className="menu">
+          <div className="menu sm:hidden">
             <ul className="flex items-center gap-10">
               <li className="text-smallTextColor font-[600]">
                 <a href="#about">About</a>
