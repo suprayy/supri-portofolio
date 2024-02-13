@@ -20,7 +20,7 @@ const Hero = () => {
               data-aos-duration="1500"
               className="text-headingColor font-[800] text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px] mt-5 "
             >
-              I'm Supriyono <br /> Front-end Developer
+              I`m Supriyono <br /> Front-end Developer
             </h1>
 
             <div
@@ -60,22 +60,22 @@ const Hero = () => {
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
                 <a href="#instagram">
-                  <i class="ri-instagram-line"></i>
+                  <i className="ri-instagram-line"></i>
                 </a>
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
                 <a href="#facebook">
-                  <i class="ri-facebook-circle-line"></i>
+                  <i className="ri-facebook-circle-line"></i>
                 </a>
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
                 <a href="#github">
-                  <i class="ri-github-fill"></i>
+                  <i className="ri-github-fill"></i>
                 </a>
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
                 <a href="#youtube">
-                  <i class="ri-youtube-line"></i>
+                  <i className="ri-youtube-line"></i>
                 </a>
               </span>
             </div>

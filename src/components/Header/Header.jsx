@@ -1,4 +1,9 @@
+import { useRef } from "react";
+
 const Header = () => {
+  const menuRef = useRef(null);
+
+  const toggleMenu = () => menuRef.current.classList.toggle("show_menu");
   return (
     <header className="w-full h-[80px] leading-[80px] flex items-center">
       <div className="container">
@@ -18,7 +23,7 @@ const Header = () => {
           {/* ====================logo end ================ */}
 
           {/* =========================menu================== */}
-          <div className="menu sm:hidden">
+          <div ref={menuRef} onClick={toggleMenu} className="menu">
             <ul className="flex items-center gap-10">
               <li className="text-smallTextColor font-[600]">
                 <a href="#about">About</a>
@@ -39,10 +44,13 @@ const Header = () => {
           {/* =========================menu right================== */}
           <div className="flex items-center gap-4">
             <button className="flex items-center gap-2 text-smallTextColor font-[700] border border-solid rounded-[8px] py-2 px-4 max-h-[40px] hover:bg-smallTextColor hover:text-white duration-300 hover:font-[500] ease-in ">
-              <i className="ri-send-plane-line"></i> Let's Talk
+              <i className="ri-send-plane-line"></i> Let`s Talk
             </button>
 
-            <span className="text-2xl md:hidden text-smallTextColor cursor-pointer ">
+            <span
+              onClick={toggleMenu}
+              className="text-2xl md:hidden text-smallTextColor cursor-pointer "
+            >
               <i className="ri-menu-line"></i>
             </span>
           </div>

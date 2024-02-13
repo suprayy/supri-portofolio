@@ -6,7 +6,7 @@ import Header from "./components/Header/Header.jsx";
 import Footer from "./components/Footer/Footer";
 import Hero from "./components/UI/Hero.jsx";
 import Services from "./components/UI/Services.jsx";
-
+import Portofolio from "./components/UI/portofolio.jsx";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -18,6 +18,7 @@ function App() {
       <main>
         <Hero />
         <Services />
+        <Portofolio />
       </main>
       <Footer />
     </>
