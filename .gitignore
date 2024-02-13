@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-my-noted
+my-noted.jsx
 
 # Editor directories and files
 .vscode/*
