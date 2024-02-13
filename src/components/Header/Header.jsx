@@ -29,7 +29,7 @@ const Header = () => {
                 <a href="#about">About</a>
               </li>
               <li className="text-smallTextColor font-[600]">
-                <a href="services">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li className="text-smallTextColor font-[600]">
                 <a href="#portofolio">Portofolio</a>
