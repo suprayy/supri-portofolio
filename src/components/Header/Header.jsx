@@ -3,7 +3,7 @@ import { useRef } from "react";
 const Header = () => {
   const menuRef = useRef(null);
 
-  const toggleMenu = () => menuRef.current.classList.toggle("show_menu");
+  const toggleMenu = () => menuRef.current.classList.toggle("show__menu");
   return (
     <header className="w-full h-[80px] leading-[80px] flex items-center">
       <div className="container">
