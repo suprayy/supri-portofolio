@@ -59,13 +59,13 @@ const Hero = () => {
                 Follow me:
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
-                <a href="#instagram">
+                <a href="https://www.instagram.com/supri.y28?igsh=dDFzNXNzYmxsaGk0">
                   <i className="ri-instagram-line"></i>
                 </a>
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
-                <a href="#facebook">
-                  <i className="ri-facebook-circle-line"></i>
+                <a href="https://www.linkedin.com/in/supriyono-182408226/">
+                  <i class="ri-linkedin-fill"></i>
                 </a>
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
