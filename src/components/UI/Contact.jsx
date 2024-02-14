@@ -1,4 +1,28 @@
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_tpzu8k8",
+        "template_acj02ys",
+        form.current,
+        "mToXDvgWHhk84GmXh"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <section id="contact" className="pb-16">
       <div className="container">
@@ -18,38 +42,45 @@ const Contact = () => {
           </div>
 
           <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
-            <form action="" className="w-full">
+            <form action="" className="w-full" ref={form} onSubmit={sendEmail}>
               <div className="mb-5">
                 <input
                   type="text"
+                  name="user_name"
                   placeholder="Enter your name"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
               <div className="mb-5">
                 <input
-                  type="text"
+                  type="email"
+                  name="user_email"
                   placeholder="Enter your email"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
-              <div className="mb-5">
+              {/* <div className="mb-5">
                 <input
-                  type="text"
+                  type="submit"
+                  name="message"
                   placeholder="Subjet"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
-              </div>
+              </div> */}
               <div className="mb-5">
                 <textarea
                   type="text"
+                  name="message"
                   rows={3}
                   placeholder="write your message"
                   className="w-full p-3 focus:outline-none rounded-[5px]"
                 />
               </div>
 
-              <button className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150">
+              <button
+                type="submit"
+                className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor text-center ease-linear duration-150"
+              >
                 Send Message
               </button>
             </form>
