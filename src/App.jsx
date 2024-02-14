@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import Hero from "./components/UI/Hero.jsx";
 import Services from "./components/UI/Services.jsx";
 import Portofolio from "./components/UI/Portofolio.jsx";
+import Contact from "./components/UI/Contact.jsx";
 function App() {
   useEffect(() => {
     Aos.init();
@@ -19,6 +20,7 @@ function App() {
         <Hero />
         <Services />
         <Portofolio />
+        <Contact />
       </main>
       <Footer />
     </>
