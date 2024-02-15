@@ -27,10 +27,18 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="github"
+                  href="https://www.linkedin.com/in/supriyono-182408226/"
                   className="text-gray-300 font-[500] text-[18px]"
                 >
-                  <i className="ri-github-line"></i>
+                  <i className="ri-linkedin-fill"></i>
+                </a>
+              </span>
+              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
+                <a
+                  href="https://www.instagram.com/supri.y28?igsh=dDFzNXNzYmxsaGk0"
+                  className="text-gray-300 font-[500] text-[18px]"
+                >
+                  <i className="ri-instagram-line"></i>
                 </a>
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
@@ -43,18 +51,10 @@ const Footer = () => {
               </span>
               <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
                 <a
-                  href="github"
+                  href="youtube"
                   className="text-gray-300 font-[500] text-[18px]"
                 >
-                  <i className="ri-github-line"></i>
-                </a>
-              </span>
-              <span className="w-[35px] h-[35px] bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center">
-                <a
-                  href="github"
-                  className="text-gray-300 font-[500] text-[18px]"
-                >
-                  <i className="ri-github-line"></i>
+                  <i className="ri-youtube-line"></i>
                 </a>
               </span>
             </div>
