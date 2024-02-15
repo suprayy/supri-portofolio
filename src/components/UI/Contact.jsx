@@ -94,7 +94,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer className="mt-2" position="top-right" autoClose={3000} />
     </section>
   );
 };
