@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const Hero = () => {
   return (
-    <section className="pt-0">
+    <section id="header" className="pt-0">
       <div className="container pt-14">
         <div className="md:flex justify-between items-center sm:flex-col md:flex-row ">
           {/* ===============hero left content=================== */}
