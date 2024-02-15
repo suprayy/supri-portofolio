@@ -1,4 +1,4 @@
-import heroBg from "../../assets/images/heroImg.png";
+import heroBg from "../../assets/images/heroImg2.png";
 import CountUp from "react-countup";
 
 const Hero = () => {
@@ -65,7 +65,7 @@ const Hero = () => {
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
                 <a href="https://www.linkedin.com/in/supriyono-182408226/">
-                  <i class="ri-linkedin-fill"></i>
+                  <i className="ri-linkedin-fill"></i>
                 </a>
               </span>
               <span className="text-smallTextColor text-[20px] font-[600] ">
